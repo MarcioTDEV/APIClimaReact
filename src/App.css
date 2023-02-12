@@ -1,0 +1,33 @@
+*{
+    font-family: monospace;
+}
+body{
+    background-color: #b3b3b3;
+    padding: 20px 50px;
+}
+form{
+    margin-bottom: 50px;
+}
+#inputCidade, input{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    
+    box-shadow: none;
+}
+#submit{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+.display{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.erro{
+    text-align: center;
+}
